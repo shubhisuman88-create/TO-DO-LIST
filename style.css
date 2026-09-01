@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color:beige;
+display: flex;
+justify-content: center;
+align-items: center;
+height:100vh;
+}
+.container{
+    background-color: lightblue;
+    border-radius:1.5rem;
+    height:auto;
+    width:55vh;
+    box-shadow:4px 5px 6px;
+
+}
+.header{
+    text-align: center;
+    font-size: 2rem;
+    padding:10px;
+    font-weight: 900;
+    border-bottom:0.5px solid white;
+    margin-bottom:20px;
+}
+.addtask{
+    display:flex;
+    justify-content: space-evenly;
+} 
+input{
+    padding:7px;
+    border-radius: 0.5rem;
+}
+button:hover{
+   border:2px solid black;
+   box-shadow:2px 2px 2px;
+}
+button{
+    background-color: rgb(250, 250, 119);
+    padding:6px;
+    border-radius:0.5rem ;
+}
+ul{
+    list-style:none;
+    padding:15px;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid white;
+    border-radius: 5px;
+    padding:8px;
+    margin-bottom: 7px;
+}
